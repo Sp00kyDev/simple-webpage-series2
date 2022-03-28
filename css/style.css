@@ -92,6 +92,50 @@ footer a{
 }
 
 
+/*landscape mode?*/
+@media (min-width: 640px){
+
+    .wrapper{
+        width: 640px;
+    }
+
+    img{
+        width: 406px;
+        height: 406px;
+    }
+
+
+    .mainSection{
+        width: 540px;
+        margin-left: 50px;   
+    }
+
+
+    .mainSection h1{
+        font-size: 2.5em;
+        line-height: 1.5em;
+    }
+
+
+    .mainSection p{
+        font-size: 1.4em;     
+    }
+
+
+
+    footer{
+        width: 639px; 
+        
+        font-size: 0.95 em;
+       
+    
+        /*margin-top: 125px;*/
+    }
+    
+    footer a{
+        color: #C1C1C1;
+    }
+}
 
 
 
@@ -100,15 +144,198 @@ footer a{
 
 
 
+/*Tablet Potrait mode*/
+@media (min-width: 843px){
+
+    .wrapper{
+        width: 843px;
+    }
+
+    img{
+        width: 406px;
+        height: 406px;
+    }
+
+
+    .mainSection{
+        width: 843px;
+        display: flex;       
+    }
+
+    .Left-containerTabletVersion{
+        width: 50%;
+    }
+
+    .Right-containerTabletVersion{
+        width: 36%; /*what happened to the 14%?*/
+    }
+
+
+    .mainSection h1{
+       
+        font-size: 2em;
+        line-height: 1.5em;
+        padding: 0px 40px 20px 58px;
+
+    }
+
+    .mainSection h3{
+        padding: 0px 40px 00px 58px;
+
+    }
+
+
+    .mainSection p{
+        font-size: 1.2em;   
+        /*padding: 0px 10px 0px 0px;*/
+    }
+
+
+
+    footer{
+        width: 843px; 
+    }
+    
+}
 
 
 
 
-/*.checker{
-    width: 504.6px;
-    background-color: aliceblue;
-}*/
 
-    /*40+125+20+24+75+25+26.4 +340*/
+/*Laptop*/
+@media (min-width: 1040px){
+
+    .wrapper{
+        width: 1040px;
+    }
+
+ 
+
+    .mainSection{
+        width: 1040px;
+        display: flex;       
+    }
+
+    .Left-containerTabletVersion{
+        width: 50%;
+    }
+
+    .Right-containerTabletVersion{
+        width: 43.5%;
+    }
+
+
+    .mainSection h1{
+       
+        font-size: 2.5em;
+        padding: 0px 40px 20px 58px; 
+
+    }
+
+
+
+    .mainSection p{
+        font-size: 1.25em;   
+    }
+
+    .StylingforLaptopDisappear{
+        display: none;
+    }
+
+
+
+    footer{
+        width: 1040px; 
+        margin-top: 220px;
+    }
+
+}
+
+
+
+/*Desktop*/
+@media (min-width: 1200px){
+
+    .wrapper{
+        width: 1200px;
+    }
+
+ 
+
+    .mainSection{
+        width: 1200px;
+        display: flex;       
+    }
+
+    .Left-containerTabletVersion{
+        width: 50%;
+    }
+
+    .Right-containerTabletVersion{
+        width: 43.5%;
+    }
+
+
+    .mainSection p{
+        font-size: 1.25em; 
+    
+    }
+
+
+    footer{
+        width: 1200px; 
+        margin-top: 280px;
+    }
+    
+}
+
+
+
+
+/*Projector......*/
+
+/* @media (min-width: 1250px){
+
+    .wrapper{
+        width: 95%;
+    }
+
+ 
+
+    .mainSection{
+        width: 95%;      
+    }
+
+    .Left-containerTabletVersion{
+        width: 50%;
+    }
+
+    .Right-containerTabletVersion{
+        width: 50%;
+    }
+
+
+    .mainSection h1{ //WE might not need this
+       
+        font-size: 2.5em;
+        padding: 0px 40px 20px 58px; //in ems
+
+    }
+
+
+
+    .mainSection p{
+        font-size: 1.25em; 
+    
+    }
+
+  
+
+    footer{
+        width: 100%; 
+        margin-top: 280px; //in percentage 
+    }
+    
+} */
 
 
